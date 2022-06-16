@@ -9,22 +9,6 @@ const Popular = () => {
         Best <span className="text-amber-200">Sellers.</span>
       </h2>
       <div className="grid grid-cols-3 gap-4">
-        {/* <div>
-          <div class="card w-96 bg-black shadow-xl">
-            <figure class="px-10 pt-10">
-              <img
-                src="https://api.lorem.space/image/shoes?w=400&h=225"
-                alt="Shoes"
-                class="rounded-xl"
-              />
-            </figure>
-            <div class="card-body items-center text-center">
-              <h2 class="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div class="card-actions"></div>
-            </div>
-          </div>
-        </div>
         <div>
           <div class="card w-96 bg-black shadow-xl">
             <figure class="px-10 pt-10">
@@ -56,7 +40,23 @@ const Popular = () => {
               <div class="card-actions"></div>
             </div>
           </div>
-        </div> */}
+        </div>
+        <div>
+          <div class="card w-96 bg-black shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="https://api.lorem.space/image/shoes?w=400&h=225"
+                alt="Shoes"
+                class="rounded-xl"
+              />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions"></div>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="text-center"></div>
       <div class="flex justify-center pt-5">

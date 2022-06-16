@@ -26,19 +26,16 @@ const Navbar = () => {
             class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Homepage</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a>Portfolio</a>
-            </li>
-            <li>
-              <a>About</a>
+              <a href="/products">Products</a>
             </li>
           </ul>
         </div>
       </div>
       <div class="navbar-center">
-        <a class="btn btn-ghost normal-case text-xl">
+        <a class="btn btn-ghost normal-case text-2xl">
           Electrical Superstores
           <span className="text-amber-200">&nbsp;NI.</span>
         </a>
