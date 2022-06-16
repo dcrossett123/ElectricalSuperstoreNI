@@ -11,7 +11,10 @@ const NotFound = () => {
         <br />
         Lets get back on track...
       </h1>
-      <button className="btn btn-accent text-lg">
+      <button
+        className="btn btn-accent text-lg"
+        onClick={() => (window.location.href = '/')}
+      >
         <FontAwesomeIcon icon={faArrowLeft} className="px-2" />
         Take me back
       </button>
