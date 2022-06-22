@@ -3,8 +3,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import ContactUs from '../components/ContactUs';
 import Footer from '../components/Footer';
-import Popular from '../components/Popular';
-import GoogleMap from '../components/GoogleMap';
+import Map from '../components/Map';
 import Carousel from '../components/Carousel';
 import CallToAction from '../components/CallToAction';
 
@@ -16,6 +15,7 @@ const Home = () => {
       <Carousel />
       <ContactUs />
       <CallToAction />
+      <Map />
       <Footer />
     </div>
   );
