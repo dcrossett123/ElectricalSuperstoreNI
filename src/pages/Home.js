@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 import Map from '../components/Map';
 import Carousel from '../components/Carousel';
 import CallToAction from '../components/CallToAction';
+import { MessengerChat } from 'react-messenger-chat-plugin';
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <CallToAction />
       <Map />
       <Footer />
+      <MessengerChat pageId="113420060494458" />
     </div>
   );
 };
