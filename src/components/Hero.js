@@ -17,7 +17,15 @@ const Hero = () => {
       <div class="hero-content text-center">
         <div class="max-w-md">
           <h1 class="text-7xl font-bold">
-            Appliances but <span className="text-amber-200">cheaper.</span>
+            Appliances but{' '}
+            <motion.span
+              animate={{
+                color: ['#f9f7fd', '#fde68a'],
+              }}
+              transition={{ duration: 1 }}
+            >
+              cheaper.
+            </motion.span>
           </h1>
           <div className="p-5">
             <div class="form-control">
