@@ -22,7 +22,7 @@ const Hero = () => {
               animate={{
                 color: ['#f9f7fd', '#fde68a'],
               }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 2 }}
             >
               cheaper.
             </motion.span>
