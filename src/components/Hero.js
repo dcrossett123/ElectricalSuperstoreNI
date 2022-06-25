@@ -1,6 +1,15 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { faArrowCircleDown } from '@fortawesome/free-solid-svg-icons';
+import { motion } from 'framer-motion';
+
+const bounceTransition = {
+  y: {
+    duration: 0.4,
+    yoyo: Infinity,
+    ease: 'easeOut',
+  },
+};
 
 const Hero = () => {
   return (
@@ -46,10 +55,15 @@ const Hero = () => {
               </label>
             </div>
           </div>
-          <button class="btn btn-secondary">
-            <FontAwesomeIcon icon={faArrowDown} className="px-2" />
-            Tell me more
-          </button>
+          <motion.div
+            transition={bounceTransition}
+            animate={{ y: ['10%', '-10%'] }}
+          >
+            <FontAwesomeIcon
+              icon={faArrowCircleDown}
+              className="pt-10 text-4xl"
+            />
+          </motion.div>
         </div>
       </div>
     </div>
