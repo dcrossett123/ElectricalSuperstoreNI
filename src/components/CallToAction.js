@@ -12,7 +12,9 @@ const CallToAction = () => {
         </div>
         <div className="basis-1/2 text-center">
           <div className="pt-6">
-            <button class="btn btn-outline text-lg">Schedule now</button>
+            <button class="btn btn-outline text-lg">
+              <a href="tel:07752102564">Schedule Now</a>
+            </button>
           </div>
         </div>
       </div>

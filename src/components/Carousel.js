@@ -48,7 +48,9 @@ const Carousel = () => {
         </div>
       </div>
       <div className="text-center">
-        <button class="btn btn-outline text-lg">Show all products</button>
+        <button class="btn btn-outline text-lg">
+          <a href="/products">Show all products</a>
+        </button>
       </div>
     </div>
   );
