@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import { faShoppingCart, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const ProductsList = ({ products }) => {
   const [visibleProducts, setVisibleProducts] = useState(products.products);
   const [selectedApplianceType, setSelectedApplianceType] = useState('All');
+  const [selectedAppliance, setSelectedAppliance] = useState('');
 
   console.log('products', visibleProducts);
   console.log('selectedAppliance', selectedApplianceType);
@@ -86,15 +88,57 @@ const ProductsList = ({ products }) => {
                     {product.price}
                   </div>
                   <div class="card-actions justify-start md:justify-end lg:justify-end pt-5">
-                    <button class="btn btn-primary btn-md">
+                    <label
+                      onClick={() => setSelectedAppliance(product.product_code)}
+                      for="my-modal-6"
+                      class="btn modal-button btn-primary btn-md"
+                    >
                       <FontAwesomeIcon icon={faShoppingCart} className="p-2" />
                       Buy now
-                    </button>
+                    </label>
                   </div>
                 </div>
               </div>
             </div>
           ))}
+        </div>
+      </div>
+      <input type="checkbox" id="my-modal-6" class="modal-toggle" />
+      <div class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box relative">
+          <label
+            for="my-modal-6"
+            class="btn btn-sm btn-circle absolute right-2 top-2"
+          >
+            ✕
+          </label>
+          <h3 class="font-bold text-lg">Lets get the ball rolling!</h3>
+          <p class="py-4">
+            Get in contact with us on whatever your preference is below and
+            quote the following product code.
+          </p>
+          <div className="flex justify-center py-8">
+            <div class="badge badge-accent badge-lg text-lg">
+              {selectedAppliance}
+            </div>
+          </div>
+          <div className="grid grid-cols-3 gap-4 text-center">
+            <div>
+              <a class="btn btn-outline btn-accent btn-lg text-3xl" href="tel:07752102564">
+                <FontAwesomeIcon icon={faPhone} className="p-2" />
+              </a>
+            </div>
+            <div>
+              <a class="btn btn-outline btn-accent btn-lg text-3xl" href="https://www.facebook.com/ElectricalSuperStoresNI">
+                <FontAwesomeIcon icon={faFacebook} className="p-2" />
+              </a>
+            </div>
+            <div>
+              <a class="btn btn-outline btn-accent btn-lg text-3xl" href="https://wa.me/+447752102564">
+                <FontAwesomeIcon icon={faWhatsapp} className="p-2" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
