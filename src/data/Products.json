@@ -2,63 +2,500 @@
     "products": [
         {
             "id": 1,
-            "name": "Hotpoint 7KG Wash Machine",
-            "brand": "Hotpoint",
+            "name": "Beko 10kg",
+            "brand": "Beko",
+            "special": "1400 rpm",
             "type": "Wash Machine",
-            "price": "£239.99",
-            "rating": "A",
-            "url": "https://donaghybros.co.uk/media/catalog/product/cache/0a73500540c5fe433eaf30802157eb21/h/p/hpoint.jpeg",
-            "product_code": "HK1111",
+            "price": "£269.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "WTK104121A",
             "dimensions": {
-                "height": 10,
-                "width": 10,
-                "depth": 10
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
             }
         },
         {
             "id": 2,
-            "name": "Beko 9KG Tumble Dryerrrrrrrr",
+            "name": "Beko 8kg",
             "brand": "Beko",
-            "type": "Tumble Dryer",
-            "price": "£349.99",
-            "rating": "C",
-            "url": "https://storage.beko.co.uk/beko2015products/large/7188236870_LO1_20220516_131712.png",
-            "product_code": "HK2222",
+            "special": "1400 rpm",
+            "type": "Wash Machine",
+            "price": "£249.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "WEX840530W",
             "dimensions": {
-                "height": 10,
-                "width": 10,
-                "depth": 10
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
             }
         },
         {
             "id": 3,
-            "name": "Hotpoint 8KG Wash Machine",
-            "brand": "Hotpoint",
+            "name": "Beko 8kg",
+            "brand": "Beko",
+            "special": "1400 rpm",
             "type": "Wash Machine",
-            "price": "£449.99",
-            "rating": "D",
-            "url": "https://donaghybros.co.uk/media/catalog/product/cache/0a73500540c5fe433eaf30802157eb21/h/p/hpoint.jpeg",
-            "product_code": "HK3333",
+            "price": "£229.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "WTK84011W",
             "dimensions": {
-                "height": 10,
-                "width": 10,
-                "depth": 10
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
             }
         },
         {
             "id": 4,
-            "name": "Beko 8KG Tumble Dryerrrrrrrr",
-            "brand": "Beko",
-            "type": "Tumble Dryer",
-            "price": "£229.99",
-            "rating": "B",
-            "url": "https://storage.beko.co.uk/beko2015products/large/7188236870_LO1_20220516_131712.png",
-            "product_code": "HK4444",
+            "name": "Hotpoint 10kg",
+            "brand": "Hotpoint",
+            "special": "1400 rpm",
+            "type": "Wash Machine",
+            "price": "£324.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "NSWA1044CWWUKN",
             "dimensions": {
-                "height": 10,
-                "width": 10,
-                "depth": 10
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Hotpoint 9kg",
+            "brand": "Hotpoint",
+            "special": "1400 rpm",
+            "type": "Wash Machine",
+            "price": "£349.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "NM11945WCAUKN",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 6,
+            "name": "Samsung 8kg",
+            "brand": "Samsung",
+            "special": "1400 rpm",
+            "type": "Wash Machine",
+            "price": "£379.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "WW80TA046AE/EU",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 7,
+            "name": "Indesit 8kg",
+            "brand": "Indesit",
+            "special": "1600 rpm",
+            "type": "Wash Machine",
+            "price": "£269.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "RWA8163XW",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 8,
+            "name": "Hoover 9kg",
+            "brand": "Hoover",
+            "special": "1500 rpm",
+            "type": "Wash Machine",
+            "price": "£299.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "H3W592DE/1-80",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 9,
+            "name": "Bosch 8kg",
+            "brand": "Bosch",
+            "special": "1400 rpm",
+            "type": "Wash Machine",
+            "price": "£449.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "WLM68",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 10,
+            "name": "AEG 8kg",
+            "brand": "AEG",
+            "special": "1400 rpm",
+            "type": "Wash Machine",
+            "price": "£399.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "L6FBK841N",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 11,
+            "name": "Whirlpool 8kg",
+            "brand": "Whirlpool",
+            "special": "Heatpump",
+            "type": "Tumble Dryer",
+            "price": "£364.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "FTM1182",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 12,
+            "name": "Hotpoint 8kg",
+            "brand": "Hotpoint",
+            "special": "Condenser",
+            "type": "Tumble Dryer",
+            "price": "£279.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "H2D81WE",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 13,
+            "name": "Hoover 10kg",
+            "brand": "Hoover",
+            "special": "Condenser",
+            "type": "Tumble Dryer",
+            "price": "£349.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "HLE610DCER-80",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 14,
+            "name": "Indesit 8kg",
+            "brand": "Indesit",
+            "special": "Condenser",
+            "type": "Tumble Dryer",
+            "price": "£349.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "13D81SUK",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 15,
+            "name": "Beko 9kg",
+            "brand": "Beko",
+            "special": "Condenser",
+            "type": "Tumble Dryer",
+            "price": "£329.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "B5T4923IW",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 16,
+            "name": "Hoover",
+            "brand": "Hoover",
+            "special": "Static",
+            "type": "Fridge Freezer",
+            "price": "£299.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "HSC577W",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 17,
+            "name": "Indesit",
+            "brand": "Indesit",
+            "special": "Static",
+            "type": "Fridge Freezer",
+            "price": "£369.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "IBD5517B",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 18,
+            "name": "Beko",
+            "brand": "Beko",
+            "special": "Frost-Free",
+            "type": "Fridge Freezer",
+            "price": "£479.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "CFP3691DVS",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 19,
+            "name": "Blomberg",
+            "brand": "Blomberg",
+            "special": "Frost-Free",
+            "type": "Fridge Freezer",
+            "price": "£449.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "KGM4663W",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 20,
+            "name": "Samsung American",
+            "brand": "Samsung",
+            "special": "Frost-Free",
+            "type": "Fridge Freezer",
+            "price": "£999.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "5401M",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 21,
+            "name": "Beko",
+            "brand": "Beko",
+            "special": "Frost-Free",
+            "type": "Dishwasher",
+            "price": "£299.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "DVN04320B",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 22,
+            "name": "Nordmende",
+            "brand": "Nordmende",
+            "special": "Frost-Free",
+            "type": "Dishwasher",
+            "price": "£389.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "DW671X",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 23,
+            "name": "Whirlpool 11kg/7kg",
+            "brand": "Whirlpool",
+            "special": "1400 rpm",
+            "type": "Washer-Dryer",
+            "price": "£449.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "FWDD117168W",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 24,
+            "name": "Hotpoint 9kg/6kg",
+            "brand": "Hotpoint",
+            "special": "1400 rpm",
+            "type": "Washer-Dryer",
+            "price": "£449.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "RD966JGDUKN",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 25,
+            "name": "Hoover 9kg/6kg",
+            "brand": "Hoover",
+            "special": "1400 rpm",
+            "type": "Washer-Dryer",
+            "price": "£379.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "H3DS4965DACE-80",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 26,
+            "name": "Hotpoint",
+            "brand": "Hotpoint",
+            "special": "Double Oven",
+            "type": "Cooker",
+            "price": "£419.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "HUE61PS",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 27,
+            "name": "Beko",
+            "brand": "Beko",
+            "special": "Double Oven",
+            "type": "Cooker",
+            "price": "£399.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "EDC633W",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 28,
+            "name": "Hotpoint",
+            "brand": "Hotpoint",
+            "special": "Double Oven",
+            "type": "Cooker",
+            "price": "£479.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "HDM67V9HCX",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 29,
+            "name": "Beko",
+            "brand": "Beko",
+            "special": "Single Oven",
+            "type": "Cooker",
+            "price": "£329.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "XTC611",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 30,
+            "name": "Beko",
+            "brand": "Beko",
+            "special": "Double Oven",
+            "type": "Cooker",
+            "price": "£339.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "XDC653",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
+            }
+        },
+        {
+            "id": 31,
+            "name": "Hotpoint",
+            "brand": "Hotpoint",
+            "special": "Double Oven",
+            "type": "Cooker",
+            "price": "£274.99",
+            "rating": "TODO",
+            "url": "TODO",
+            "product_code": "HAE60KS",
+            "dimensions": {
+                "height": "TODO",
+                "width": "TODO",
+                "depth": "TODO"
             }
         }
+
     ]
 }
