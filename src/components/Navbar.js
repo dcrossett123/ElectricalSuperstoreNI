@@ -43,12 +43,12 @@ const Navbar = () => {
         </a>
       </div>
       <div class="navbar-end">
-        <button class="btn btn-ghost btn-circle">
+        <a class="btn btn-ghost btn-circle" href="tel:07752102564">
           <div class="indicator">
             <FontAwesomeIcon icon={faPhone} className="px-2 text-lg" />
             <span class="badge badge-xs badge-success indicator-item"></span>
           </div>
-        </button>
+        </a>
       </div>
     </div>
   );
