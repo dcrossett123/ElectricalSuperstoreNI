@@ -70,7 +70,7 @@ const ProductsList = ({ products }) => {
               <div class="card card-side bg-white shadow-xl h-96 lg:h-80 md:h-80">
                 <figure className="px-0 pt-0 md:px-10 lg:px-10 md:pt-10 lg:pt-10">
                   <img
-                    className="object-cover h-48 w-full"
+                    className="object-scale-down h-48 w-full"
                     src={product.url}
                     alt="Movie"
                   />
@@ -84,7 +84,7 @@ const ProductsList = ({ products }) => {
                     {product.special}
                   </div>
                   <div className="badge badge-outline badge-lg">
-                    {product.dimensions.height} x {product.dimensions.width} x{' '}
+                    {product.dimensions.height}/{product.dimensions.width}/
                     {product.dimensions.depth}
                   </div>
                   <div class="badge badge-success badge-lg">
