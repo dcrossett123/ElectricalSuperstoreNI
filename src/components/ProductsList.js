@@ -68,7 +68,7 @@ const ProductsList = ({ products }) => {
           {visibleProducts.map((product) => (
             <div>
               <div class="card card-side bg-white shadow-xl h-96 lg:h-80 md:h-80">
-                <figure className="px-0 pt-0 md:px-10 lg:px-10 md:pt-10 lg:pt-10">
+                <figure className="px-0 pt-0 md:px-5 lg:px-10 md:pt-5 lg:pt-10 sm:px-0 sm:pt-0">
                   <img
                     className="object-scale-down h-48 w-full"
                     src={product.url}
