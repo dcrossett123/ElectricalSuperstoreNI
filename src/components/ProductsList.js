@@ -67,7 +67,7 @@ const ProductsList = ({ products }) => {
         <div className="grid grid-cols-1 gap-4 md:grid-cols-1 lg:grid-cols-2 py-5">
           {visibleProducts.map((product) => (
             <div>
-              <div class="card card-side bg-white shadow-xl h-96 lg:h-80 md:h-80">
+              <div class="card md:card-side lg:card-side bg-white shadow-xl h-auto lg:h-80 md:h-80">
                 <figure className="px-0 pt-0 md:px-0 lg:px-10 md:pt-0 lg:pt-10 sm:px-0 sm:pt-0">
                   <img
                     className="object-scale-down h-48 w-full"
@@ -90,7 +90,7 @@ const ProductsList = ({ products }) => {
                   <div class="badge badge-success badge-lg">
                     {product.price}
                   </div>
-                  <div class="card-actions justify-start md:justify-end lg:justify-end pt-5">
+                  <div class="card-actions justify-end pt-5">
                     <label
                       onClick={() => setSelectedAppliance(product.product_code)}
                       for="my-modal-6"
