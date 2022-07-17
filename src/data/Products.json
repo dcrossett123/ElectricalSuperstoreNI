@@ -2,63 +2,484 @@
     "products": [
         {
             "id": 1,
-            "name": "Hotpoint 7KG Wash Machine",
-            "brand": "Hotpoint",
+            "name": "Beko 10kg Wash Machine",
+            "brand": "Beko",
+            "special": "1400 rpm",
             "type": "Wash Machine",
-            "price": "£239.99",
-            "rating": "A",
-            "url": "https://donaghybros.co.uk/media/catalog/product/cache/0a73500540c5fe433eaf30802157eb21/h/p/hpoint.jpeg",
-            "product_code": "HK1111",
+            "price": "£269.99",
+            "rating": "B",
+            "url": "https://media.currys.biz/i/currysprod/10212171?$l-large$&fmt=auto",
+            "product_code": "WTK104121A",
             "dimensions": {
-                "height": 10,
-                "width": 10,
-                "depth": 10
+                "height": "84",
+                "width": "60",
+                "depth": "64"
             }
         },
         {
             "id": 2,
-            "name": "Beko 9KG Tumble Dryerrrrrrrr",
+            "name": "Beko 8kg Wash Machine",
             "brand": "Beko",
-            "type": "Tumble Dryer",
-            "price": "£349.99",
+            "special": "1400 rpm",
+            "type": "Wash Machine",
+            "price": "£249.99",
             "rating": "C",
-            "url": "https://storage.beko.co.uk/beko2015products/large/7188236870_LO1_20220516_131712.png",
-            "product_code": "HK2222",
+            "url": "https://media.currys.biz/i/currysprod/10211958?$l-large$&fmt=auto",
+            "product_code": "WEX840530W",
             "dimensions": {
-                "height": 10,
-                "width": 10,
-                "depth": 10
+                "height": "84",
+                "width": "60",
+                "depth": "59"
             }
         },
         {
             "id": 3,
-            "name": "Hotpoint 8KG Wash Machine",
-            "brand": "Hotpoint",
+            "name": "Beko 8kg Wash Machine",
+            "brand": "Beko",
+            "special": "1400 rpm",
             "type": "Wash Machine",
-            "price": "£449.99",
-            "rating": "D",
-            "url": "https://donaghybros.co.uk/media/catalog/product/cache/0a73500540c5fe433eaf30802157eb21/h/p/hpoint.jpeg",
-            "product_code": "HK3333",
+            "price": "£229.99",
+            "rating": "C",
+            "url": "https://media.currys.biz/i/currysprod/10211980?$l-large$&fmt=auto",
+            "product_code": "WTK84011W",
             "dimensions": {
-                "height": 10,
-                "width": 10,
-                "depth": 10
+                "height": "84",
+                "width": "60",
+                "depth": "59"
             }
         },
         {
             "id": 4,
-            "name": "Beko 8KG Tumble Dryerrrrrrrr",
-            "brand": "Beko",
-            "type": "Tumble Dryer",
-            "price": "£229.99",
-            "rating": "B",
-            "url": "https://storage.beko.co.uk/beko2015products/large/7188236870_LO1_20220516_131712.png",
-            "product_code": "HK4444",
+            "name": "Hotpoint 10kg Wash Machine",
+            "brand": "Hotpoint",
+            "special": "1400 rpm",
+            "type": "Wash Machine",
+            "price": "£324.99",
+            "rating": "C",
+            "url": "https://media.currys.biz/i/currysprod/10226523?$l-large$&fmt=auto",
+            "product_code": "NSWA1044CWWUKN",
             "dimensions": {
-                "height": 10,
-                "width": 10,
-                "depth": 10
+                "height": "85",
+                "width": "59",
+                "depth": "60"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Hotpoint 9kg Wash Machine",
+            "brand": "Hotpoint",
+            "special": "1400 rpm",
+            "type": "Wash Machine",
+            "price": "£349.99",
+            "rating": "B",
+            "url": "https://brain-images-ssl.cdn.dixons.com/5/1/10211715/l_10211715.jpg",
+            "product_code": "NM11945WCAUKN",
+            "dimensions": {
+                "height": "85",
+                "width": "56",
+                "depth": "61"
+            }
+        },
+        {
+            "id": 6,
+            "name": "Samsung 8kg Wash Machine",
+            "brand": "Samsung",
+            "special": "1400 rpm",
+            "type": "Wash Machine",
+            "price": "£379.99",
+            "rating": "B",
+            "url": "https://media.currys.biz/i/currysprod/M10213617?$l-large$&fmt=auto",
+            "product_code": "WW80TA046AE/EU",
+            "dimensions": {
+                "height": "85",
+                "width": "60",
+                "depth": "55"
+            }
+        },
+        {
+            "id": 7,
+            "name": "Indesit 8kg Wash Machine",
+            "brand": "Indesit",
+            "special": "1600 rpm",
+            "type": "Wash Machine",
+            "price": "£269.99",
+            "rating": "D",
+            "url": "https://indesituk.vtexassets.com/arquivos/ids/159841-800-auto?width=800&height=auto&aspect=true",
+            "product_code": "RWA8163XW",
+            "dimensions": {
+                "height": "84.5",
+                "width": "59.5",
+                "depth": "63"
+            }
+        },
+        {
+            "id": 8,
+            "name": "Hoover 9kg Wash Machine",
+            "brand": "Hoover",
+            "special": "1500 rpm",
+            "type": "Wash Machine",
+            "price": "£299.99",
+            "rating": "D",
+            "url": "https://d15v10x8t3bz3x.cloudfront.net/Immagini/2020/5/15893834/640-3_31010917_09_01_f_h3w%20492de1-80-M.jpg",
+            "product_code": "H3W592DE/1-80",
+            "dimensions": {
+                "height": "85",
+                "width": "60",
+                "depth": "53"
+            }
+        },
+        {
+            "id": 9,
+            "name": "Bosch 8kg Wash Machine",
+            "brand": "Bosch",
+            "special": "1400 rpm",
+            "type": "Wash Machine",
+            "price": "£449.99",
+            "rating": "C",
+            "url": "https://media.currys.biz/i/currysprod/M10211612_white?$l-large$&fmt=auto",
+            "product_code": "WAN28281GB",
+            "dimensions": {
+                "height": "85",
+                "width": "60",
+                "depth": "55"
+            }
+        },
+        {
+            "id": 10,
+            "name": "AEG 8kg Wash Machine",
+            "brand": "AEG",
+            "special": "1400 rpm",
+            "type": "Wash Machine",
+            "price": "£399.99",
+            "rating": "E",
+            "url": "https://www.aeg.co.uk/remote.jpg.ashx?urlb64=aHR0cHM6Ly9zZXJ2aWNlcy5lbGVjdHJvbHV4LW1lZGlhbGlicmFyeS5jb20vMTE4ZWQ0YzBlZTY1NDZmNGE3Njg0YzdmZWY4Yzk4NWFOclptWWtNODYxZDFmL3ZpZXcvV1NfUE4vUFNBQVdNMjEwUEEwMDBCTi5wbmc&hmac=T7qbfsfjZBQ&width=1600&quality=70&format=png&mode=crop",
+            "product_code": "L6FBK841N",
+            "dimensions": {
+                "height": "85",
+                "width": "60",
+                "depth": "55"
+            }
+        },
+        {
+            "id": 11,
+            "name": "Whirlpool 8kg Dryer",
+            "brand": "Whirlpool",
+            "special": "Heatpump",
+            "type": "Tumble Dryer",
+            "price": "£364.99",
+            "rating": "A++",
+            "url": "https://whirlpool-cdn.thron.com/delivery/public/thumbnail/whirlpool/pi-73b0de06-37e4-499e-88d2-7822c625ea91/jsind9/std/1000x1000/869991561500.jpg?fill=zoom&fillcolor=rgba:255,255,255&scalemode=product",
+            "product_code": "FTM1182",
+            "dimensions": {
+                "height": "85",
+                "width": "60",
+                "depth": "65"
+            }
+        },
+        {
+            "id": 12,
+            "name": "Hotpoint 8kg Dryer",
+            "brand": "Hotpoint",
+            "special": "Condenser",
+            "type": "Tumble Dryer",
+            "price": "£279.99",
+            "rating": "B",
+            "url": "https://media.currys.biz/i/currysprod/M10226543?$l-large$&fmt=auto",
+            "product_code": "H2D81WE",
+            "dimensions": {
+                "height": "85",
+                "width": "60",
+                "depth": "67"
+            }
+        },
+        {
+            "id": 13,
+            "name": "Hoover 10kg Dryer",
+            "brand": "Hoover",
+            "special": "Condenser",
+            "type": "Tumble Dryer",
+            "price": "£349.99",
+            "rating": "B",
+            "url": "https://media.currys.biz/i/currysprod/10227135?$l-large$&fmt=auto",
+            "product_code": "HLEC10DCER-80",
+            "dimensions": {
+                "height": "85",
+                "width": "60",
+                "depth": "59"
+            }
+        },
+        {
+            "id": 14,
+            "name": "Indesit 8kg Dryer",
+            "brand": "Indesit",
+            "special": "Condenser",
+            "type": "Tumble Dryer",
+            "price": "£349.99",
+            "rating": "B",
+            "url": "https://indesituk.vtexassets.com/arquivos/ids/162911-800-auto?width=800&height=auto&aspect=true",
+            "product_code": "13D81SUK",
+            "dimensions": {
+                "height": "85",
+                "width": "60",
+                "depth": "61"
+            }
+        },
+        {
+            "id": 15,
+            "name": "Beko 9kg Dryer",
+            "brand": "Beko",
+            "special": "Heatpump",
+            "type": "Tumble Dryer",
+            "price": "£329.99",
+            "rating": "A++",
+            "url": "https://media.currys.biz/i/currysprod/M10227216?$l-large$&fmt=auto",
+            "product_code": "B5T4923IW",
+            "dimensions": {
+                "height": "85",
+                "width": "60",
+                "depth": "60"
+            }
+        },
+        {
+            "id": 16,
+            "name": "Hoover Fridge-Freezer",
+            "brand": "Hoover",
+            "special": "Low Frost",
+            "type": "Fridge Freezer",
+            "price": "£299.99",
+            "rating": "F",
+            "url": "https://media.currys.biz/i/currysprod/10213404?$l-large$&fmt=auto",
+            "product_code": "HSC577W",
+            "dimensions": {
+                "height": "173",
+                "width": "55",
+                "depth": "58"
+            }
+        },
+        {
+            "id": 17,
+            "name": "Indesit Fridge-Freezer",
+            "brand": "Indesit",
+            "special": "Low Frost",
+            "type": "Fridge Freezer",
+            "price": "£369.99",
+            "rating": "F",
+            "url": "https://media.currys.biz/i/currysprod/10214139?$l-large$&fmt=auto",
+            "product_code": "IBD5517B",
+            "dimensions": {
+                "height": "174",
+                "width": "54.5",
+                "depth": "58"
+            }
+        },
+        {
+            "id": 18,
+            "name": "Beko Fridge-Freezer",
+            "brand": "Beko",
+            "special": "Frost-Free",
+            "type": "Fridge Freezer",
+            "price": "£479.99",
+            "rating": "F",
+            "url": "https://media.currys.biz/i/currysprod/10212633?$l-large$&fmt=auto",
+            "product_code": "CFP3691DVS",
+            "dimensions": {
+                "height": "191",
+                "width": "59.5",
+                "depth": "65.5"
+            }
+        },
+        {
+            "id": 19,
+            "name": "Blomberg Fridge-Freezer",
+            "brand": "Blomberg",
+            "special": "Frost-Free",
+            "type": "Fridge Freezer",
+            "price": "£449.99",
+            "rating": "A+",
+            "url": "https://s3-eu-west-1.amazonaws.com/media.markselectrical.co.uk/item-images/zoom/webp/KGM4513.webp",
+            "product_code": "KGM4663W",
+            "dimensions": {
+                "height": "191",
+                "width": "59.5",
+                "depth": "65.5"
+            }
+        },
+        {
+            "id": 20,
+            "name": "Samsung Fridge-Freezer",
+            "brand": "Samsung",
+            "special": "American",
+            "type": "Fridge Freezer",
+            "price": "£999.99",
+            "rating": "F",
+            "url": "https://cdn.ecommercedns.uk/files/2/225382/0/13353460/rs65r-1.jpg",
+            "product_code": "5401M",
+            "dimensions": {
+                "height": "178",
+                "width": "91",
+                "depth": "71"
+            }
+        },
+        {
+            "id": 21,
+            "name": "Beko Dishwasher",
+            "brand": "Beko",
+            "special": "12.9 Litre",
+            "type": "Dishwasher",
+            "price": "£299.99",
+            "rating": "E",
+            "url": "https://images2.drct2u.com/pdp_main_tablet/products/zi/zi363/u01zi363625w.jpg",
+            "product_code": "DVN04320B",
+            "dimensions": {
+                "height": "85",
+                "width": "60",
+                "depth": "60"
+            }
+        },
+        {
+            "id": 22,
+            "name": "Nordmende Dishwasher",
+            "brand": "Nordmende",
+            "special": "12 Litre",
+            "type": "Dishwasher",
+            "price": "£389.99",
+            "rating": "E",
+            "url": "https://cdn.shopify.com/s/files/1/0450/3588/0609/products/1oOeS9QyoSvSbc_480x.jpg?v=1629461537",
+            "product_code": "DW671X",
+            "dimensions": {
+                "height": "85",
+                "width": "60",
+                "depth": "60"
+            }
+        },
+        {
+            "id": 23,
+            "name": "Whirlpool 11kg/7kg",
+            "brand": "Whirlpool",
+            "special": "1400 rpm",
+            "type": "Washer-Dryer",
+            "price": "£449.99",
+            "rating": "E",
+            "url": "https://whirlpool-cdn.thron.com/delivery/public/thumbnail/whirlpool/pi-d81d22ca-9564-4b07-8850-7d70122def91/jsind9/std/1000x1000/869991618790.jpg?fill=zoom&fillcolor=rgba:255,255,255&scalemode=product",
+            "product_code": "FWDD117168W",
+            "dimensions": {
+                "height": "85",
+                "width": "60",
+                "depth": "60"
+            }
+        },
+        {
+            "id": 24,
+            "name": "Hotpoint 9kg/6kg",
+            "brand": "Hotpoint",
+            "special": "1400 rpm",
+            "type": "Washer-Dryer",
+            "price": "£449.99",
+            "rating": "E",
+            "url": "https://hotpointuk.vtexassets.com/arquivos/ids/167468-800-auto?width=800&height=auto&aspect=true",
+            "product_code": "RD966JGDUKN",
+            "dimensions": {
+                "height": "85",
+                "width": "59.5",
+                "depth": "85"
+            }
+        },
+        {
+            "id": 25,
+            "name": "Hoover 9kg/6kg",
+            "brand": "Hoover",
+            "special": "1400 rpm",
+            "type": "Washer-Dryer",
+            "price": "£379.99",
+            "rating": "E",
+            "url": "https://d15v10x8t3bz3x.cloudfront.net/Immagini/2020/5/15892955/640-3_31010705_13_01_f_h3ds%204965dace-80-M.jpg",
+            "product_code": "H3DS4965DACE-80",
+            "dimensions": {
+                "height": "85",
+                "width": "60",
+                "depth": "58"
+            }
+        },
+        {
+            "id": 26,
+            "name": "Hotpoint Cooker",
+            "brand": "Hotpoint",
+            "special": "Double Oven",
+            "type": "Cooker",
+            "price": "£419.99",
+            "rating": "A",
+            "url": "https://www.appliancesdirect.co.uk/Images/779926711HUE61PS_1_Supersize.jpg?width=650&height=650&v=11",
+            "product_code": "HUE61PS",
+            "dimensions": {
+                "height": "90",
+                "width": "60",
+                "depth": "60"
+            }
+        },
+        {
+            "id": 27,
+            "name": "Beko Cooker",
+            "brand": "Beko",
+            "special": "Double Oven",
+            "type": "Cooker",
+            "price": "£399.99",
+            "rating": "A",
+            "url": "https://cdn.ecommercedns.uk/files/2/225382/9/6330199/edc633w-1.jpg",
+            "product_code": "EDC633W",
+            "dimensions": {
+                "height": "90",
+                "width": "60",
+                "depth": "60"
+            }
+        },
+        {
+            "id": 28,
+            "name": "Hotpoint Cooker",
+            "brand": "Hotpoint",
+            "special": "Double Oven",
+            "type": "Cooker",
+            "price": "£479.99",
+            "rating": "A",
+            "url": "https://hotpointuk.vtexassets.com/arquivos/ids/173294-800-auto?width=800&height=auto&aspect=true",
+            "product_code": "HDM67V9HCX",
+            "dimensions": {
+                "height": "90",
+                "width": "60",
+                "depth": "60"
+            }
+        },
+        {
+            "id": 29,
+            "name": "Beko Cooker",
+            "brand": "Beko",
+            "special": "Single Oven",
+            "type": "Cooker",
+            "price": "£329.99",
+            "rating": "A",
+            "url": "https://media.currys.biz/i/currysprod/10166776?$l-large$&fmt=auto",
+            "product_code": "XTC611",
+            "dimensions": {
+                "height": "90",
+                "width": "60",
+                "depth": "60"
+            }
+        },
+        {
+            "id": 30,
+            "name": "Beko Cooker",
+            "brand": "Beko",
+            "special": "Double Oven",
+            "type": "Cooker",
+            "price": "£339.99",
+            "rating": "A",
+            "url": "https://media.currys.biz/i/currysprod/10182926_001?$l-large$&fmt=auto",
+            "product_code": "XDC653",
+            "dimensions": {
+                "height": "90",
+                "width": "60",
+                "depth": "60"
             }
         }
+
     ]
 }

@@ -33,8 +33,9 @@ const ProductsList = ({ products }) => {
           <option value="Wash Machine">Wash Machine</option>
           <option value="Tumble Dryer">Tumble Dryer</option>
           <option value="Fridge Freezer">Fridge Freezer</option>
+          <option value="Cooker">Cooker</option>
           <option value="Dishwasher">Dishwasher</option>
-          <option value="TV">TV</option>
+          <option value="Washer-Dryer">Washer Dryer</option>
         </select>
       </div>
       {selectedApplianceType !== 'All' && (
@@ -66,10 +67,10 @@ const ProductsList = ({ products }) => {
         <div className="grid grid-cols-1 gap-4 md:grid-cols-1 lg:grid-cols-2 py-5">
           {visibleProducts.map((product) => (
             <div>
-              <div class="card card-side bg-white shadow-xl h-96 lg:h-80 md:h-80">
-                <figure className="px-10 pt-10 md:px-0 lg:px-0 md:pt-0 lg:pt-0">
+              <div class="card md:card-side lg:card-side bg-white shadow-xl h-auto lg:h-80 md:h-80">
+                <figure className="px-0 pt-0 md:px-0 lg:px-10 md:pt-0 lg:pt-10 sm:px-0 sm:pt-0">
                   <img
-                    className="object-cover h-48 w-full"
+                    className="object-scale-down h-48 w-full"
                     src={product.url}
                     alt="Movie"
                   />
@@ -79,15 +80,17 @@ const ProductsList = ({ products }) => {
                   <div className="badge badge-outline badge-lg">
                     {product.rating}
                   </div>
-                  <div className="badge badge-outline badge-lg">1400 rpm</div>
                   <div className="badge badge-outline badge-lg">
-                    {product.dimensions.height} x {product.dimensions.width} x{' '}
+                    {product.special}
+                  </div>
+                  <div className="badge badge-outline badge-lg">
+                    {product.dimensions.height}/{product.dimensions.width}/
                     {product.dimensions.depth}
                   </div>
                   <div class="badge badge-success badge-lg">
                     {product.price}
                   </div>
-                  <div class="card-actions justify-start md:justify-end lg:justify-end pt-5">
+                  <div class="card-actions justify-end pt-5">
                     <label
                       onClick={() => setSelectedAppliance(product.product_code)}
                       for="my-modal-6"
@@ -124,17 +127,26 @@ const ProductsList = ({ products }) => {
           </div>
           <div className="grid grid-cols-3 gap-4 text-center">
             <div>
-              <a class="btn btn-outline btn-accent btn-lg text-3xl" href="tel:07752102564">
+              <a
+                class="btn btn-outline btn-accent btn-lg text-3xl"
+                href="tel:07752102564"
+              >
                 <FontAwesomeIcon icon={faPhone} className="p-2" />
               </a>
             </div>
             <div>
-              <a class="btn btn-outline btn-accent btn-lg text-3xl" href="https://www.facebook.com/ElectricalSuperStoresNI">
+              <a
+                class="btn btn-outline btn-accent btn-lg text-3xl"
+                href="https://www.facebook.com/ElectricalSuperStoresNI"
+              >
                 <FontAwesomeIcon icon={faFacebook} className="p-2" />
               </a>
             </div>
             <div>
-              <a class="btn btn-outline btn-accent btn-lg text-3xl" href="https://wa.me/+447752102564">
+              <a
+                class="btn btn-outline btn-accent btn-lg text-3xl"
+                href="https://wa.me/+447752102564"
+              >
                 <FontAwesomeIcon icon={faWhatsapp} className="p-2" />
               </a>
             </div>
